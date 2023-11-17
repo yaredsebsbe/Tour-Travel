@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="search" placeholder="search">
+    <a class="open">open</a>
+    <dialog class="modal">
+        Are you sure, Do you want to delete this package
+        <button class="del">Delete</button>
+        <button class="close">close</button>
+        
+    </dialog>
+</body>
+<script>
+    const modal=document.querySelector('.modal');
+    const open=document.querySelector('.open');
+    const close=document.querySelector('.close');
+
+    open.addEventListener('click',()=>{
+        modal.showModal();
+    });
+    close.addEventListener('click',()=>{
+        modal.close();
+    });
+</script>
+</html>

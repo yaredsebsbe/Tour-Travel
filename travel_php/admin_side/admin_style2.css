@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: aqua;
+    padding: 20px 0;
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+ul{
+    display: flex;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+.container{
+    background-color: #eee;
+    min-height: 100vh;
+    /* display: flex; */
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+}
+.user_list{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.infos{
+    background-color: #ddd;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+
+
+.user_list .search{
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    border: 1px solid #1e1e1e;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: all 1s ease;
+}
+.user_list .search:hover{
+    padding: 3px 15px;
+    transition: all 0.5s ease;
+    font-size: 26px;
+}
+.user_list .search img{
+    width: 20px;  
+}
+.user_list .search input{
+    border: none;
+    padding: 10px;
+}
+.user_list .search input:focus{
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+th,td{
+    padding: 10px 20px;
+}
+tr{
+    overflow: scroll;
+}
+
+
+.row h2{
+    padding: 20px;
+    text-align: center;
+}
+.infos .sub-info{
+    display: flex;
+    padding: 10px 20px;
+}
+.infos .sub-info h4{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.infos .sub-info p{
+    font-size: 18px;
+}
+.app-data .app-img{
+    display: none;
+}
+@media (max-width: 700px){
+    .container .row{
+        display: block;     
+        padding: 0 20px;
+    }
+    .container .user_list{
+        margin-bottom: 20px;
+        display: inline-block;
+        min-width: 88%;
+    }
+}

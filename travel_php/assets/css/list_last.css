@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Julius+Sans+One&family=Lobster&family=Merriweather&family=Michroma&family=Montserrat+Alternates:wght@400;500&family=Quicksand:wght@500&family=Sen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Michroma', sans-serif;
+}
+
+p{
+    display: block; 
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Baloo 2', cursive;
+    
+}
+.sp{
+    color: #658864;
+    font-weight: 600;
+
+}
+.container{
+    margin: 0px auto;
+    max-width:1000px;
+    height: 100%;
+    
+
+}
+.sub-container{
+    display: block;
+/*    grid-template-columns: repeat(3, 1fr);*/
+    gap: 1rem;
+    background-color: #eee;
+}
+.row{
+    position: relative;
+    border: 2px solid #000;
+    padding: 30px 10px;
+    margin: 10px;
+    display: block;
+    background-color: #fff;
+}
+button,a{
+    display: block;
+    margin: 10px 0 0 0;
+}
+.link1{
+    text-decoration: none;
+    padding:10px;
+    background-color: #e96666;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+    color: #3C84AB;
+    font-size: 13px;
+    border: 1px solid #F55050;
+    font-size: 17px;
+    text-align: center;
+}
+.link2{
+    text-decoration: none;
+    padding:10px;
+    background-color: #86A3B8;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+    color: #FFFFE8;
+    font-size: 13px;
+    font-size: 17px;
+    text-align: center;
+}
+button{
+    position: relative;
+    width: 100%;
+    background-color: #86A3B8;
+    font-family: 'Baloo 2', cursive;
+    color: #FFFFE8;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    
+}
+button:hover{
+    transition: ease-out 0.3s;
+    background-color: #658864;
+    cursor: pointer;
+    color: #EEEEEE;
+}
+.link2:hover{
+    transition: ease-out 0.3s;
+    background-color: #658864;
+    cursor: pointer;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.link2:active{
+    background-color: #658864;
+    color: #FFFFE8;
+}
+.link1:hover{
+    transition: ease-out 0.3s;
+    background-color: #F55050;
+    cursor: pointer;
+    color: #645CBB;
+    text-decoration: none;
+}
+.link1:active{
+    background-color: #658864;
+    color: #FFFFE8;
+}
+.pack_del{
+    text-decoration: none;
+    padding:3px;
+    background-color: #e96666;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+    color: #3C84AB;
+    font-size: 13px;
+    border: 1px solid #F55050;
+    font-size: 17px;
+    text-align: center;
+    right: auto;
+}
+.pack_del:hover{
+    transition: ease-out 0.3s;
+    background-color: #F55050;
+    cursor: pointer;
+    color: #645CBB;
+    text-decoration: none;
+}
+.pack_del:active{
+    background-color: #658864;
+    color: #FFFFE8;
+}
+@media(min-width:60em){
+.sub-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.row{
+    position: relative;
+    border: 2px solid #000;
+    padding: 50px 15px;
+    margin: 10px;
+}
+.pack_del{
+    margin-left: 70px;
+}
+
+button,a{
+    position: absolute;
+    bottom: 10px;
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    padding:3px;
+    background-color: #F48484;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+    color: #3C84AB;
+    font-size: 13px;
+    border: none;
+    margin-left: 10px;
+}
+
+.link1{
+    padding: 5px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.link2{
+    padding: 5px;
+    width: 100px;
+    font-size: 14px;
+    left: 150px;
+}
+
+}

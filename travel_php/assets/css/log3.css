@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lobster&family=Montserrat+Alternates:wght@400;500&family=Sen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    position: relative;
+    top: 160px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.form{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(253, 253, 253);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 140px;
+    display: block;
+}
+input[type="text"],input[type="password"]{
+    top: 60px;
+    width: 230px;
+    height: 34px;
+    position: relative;;
+    margin-left: 90px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #fff;
+    color: black;
+    border-radius: 5px;
+    font-weight: 300;
+
+}
+.eye{
+    width: 20px;
+    position: relative;
+    top: 110px;
+    margin-left: 180px;
+}
+.login_field{
+    border: 1px solid rgb(196, 193, 193);
+    display: inline-block;
+}
+button{
+    position: relative;
+    top: 80px;
+    width: 150px;
+    margin-left: 135px;
+    padding: 7px;
+    font-size: 16px;
+    border: 1px solid rgb(124, 123, 123);
+    border-radius: 5px;
+    color: rgb(91, 90, 90);
+    box-shadow: inset 0 0 0 0 #AAE3E2;
+    transition: ease-out 0.5s;
+    font-family: 'Julius Sans One', sans-serif;
+}
+button:hover{
+    box-shadow: inset 200px 0 0 0 #AAE3E2;
+    cursor: pointer;
+    font-family: 'Julius Sans One', sans-serif;
+}
+button:active{
+    background-color: rgb(243, 243, 246);
+}
+h3{
+    position: relative;
+    top: 60px;
+    margin-left: 20px; 
+    text-align: center;
+    padding-top: 9px;
+    font-weight: 100;
+    font-size: 14px;
+    color: #D61355;
+    font-family: 'Sen', sans-serif;
+    
+}
+.rem{
+    position: relative;
+    top: 90px;
+    margin-left: 90px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+.rem a{
+    text-decoration: none;
+    padding: 0 25px;
+    color: #7C96AB;
+}
+a:hover{
+    color: #159895;
+    transition: ease-out 0.5s;
+}

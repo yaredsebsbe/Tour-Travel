@@ -1,0 +1,27 @@
+.book-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-head{
+    margin-top: 100px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.book-data{
+    padding: 10px;
+    background-color: #eee;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.book-data a{
+    background-color: #5A96E3;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    
+
+}

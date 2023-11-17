@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    overflow: hidden;
+    background-color: #f2f2f2;
+    box-shadow: inset 0 0 20px #eee;
+}
+
+.header a {
+    float: right;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+dialog{
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 75%;
+    top: 17%;
+    padding: 10px;
+    width: 250px;   
+}
+dialog a{
+    margin: 5px;   
+    color: #fff !important;
+}
+dialog .links{
+    display: flex;
+}
+dialog .logout{
+    background-color: #DB2D43;
+}
+dialog .password{
+    background-color: #3A98B9;
+}
+dialog img{
+    width: 30px;
+}
+
+li{
+    list-style: none; 
+}
+/* end of header */
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);   
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.main .operations{
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    
+}
+.main .row{
+    padding: 10px;
+    background-color: #4D4D4D;
+    color: #fff;
+    margin: 20px;
+    text-align: center;   
+    transition: 0.5s ease-out;
+    border-radius: 10px;
+}
+.main .row:hover{
+    box-shadow: 0 0 20px #393053;
+    transition: 0.5s ease-out;
+}
+.row h1{
+    padding: 15px;
+    
+}
+.row a{
+    display: inline-block;
+    text-decoration: none;
+    color: #301E67;
+    padding: 8px 15px;
+    background-color: #93C6E7;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.info-area{
+    padding: 20px;
+    display: flex;
+}
+.info-area .info1{
+    padding: 10px;
+    width: 100%;
+}
+.info-area .info{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+}
+/* end of dashboard */
+
+.table-main{
+    
+    text-align: center;
+    min-height: 84vh;
+    min-width: 100%;
+    display: inline-block;
+}
+.sub-head{
+    background-color: #f2f2f2;
+    margin-top: 20px;
+}
+.sub-head h2{
+    padding: 20px;
+    color: #219F94;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    color: #536162;
+    background-color: #FBFBFB;
+}
+tr{
+    text-transform: capitalize;
+}
+th{
+    background-color: #D3E4CD;
+    padding: 10px 0;
+    color: #219F94;
+    font-size: 17px;
+}
+td{
+    padding: 15px 20px;
+    font-size: 14px;
+}
+table a{
+    text-decoration: none;
+    padding: 8px;   
+    font-size: 17px;
+}
+table .packages{
+    background-color: #5EB7B7;
+    color: #eee;
+    border-radius: 8px;
+}
+table .delete{
+    background-color: #F38181;
+    color: #eee;
+    border-radius: 8px;
+}
+table .packages:hover{
+    background-color: #159895;
+    transition: all 0.5s ease;
+    
+}
+table .delete:hover{
+    background-color: #E96479;
+    transition: all 0.5s ease;  
+}
+.table-main .search{
+    background-color: #fff;
+    display: inline-block;
+    padding: 6px 10px;
+    border: 1px solid #1e1e1e;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: all 0.5s ease;
+    
+    
+}
+.table-main .search:hover{
+    padding: 6px 18px;
+    transition: all 0.5s ease;
+    font-size: 26px;
+}
+.table-main .search img{
+    width: 20px;  
+}
+.table-main .search input{
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.table-main .search input:focus{
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+/* end of table */
+
+
+.package{
+    border: 2px solid #000;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 4px;
+    transition: all 0.5s ease;  
+    background-color: #f4f4f4;
+}
+.package img{
+    width: 350px;
+    border-radius: 5px;
+    height: 250px;
+    
+}
+.package .pack-data{
+    display: flex;
+    padding: 8px 0px;   
+    font-size: 18px; 
+}
+
+.package a{
+    text-decoration: none;
+    padding: 13px 0px;
+    background-color: #159895;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.package .delete{
+    background-color: #F38181;
+    color: #eee;
+    border-radius: 3px;
+    transition: all 0.5s ease;  
+}
+.package .delete:hover{
+    background-color: #E96479;
+    transition: all 0.5s ease;  
+}
+
+.package .approve{
+    background-color: #87b2e1;
+    color: #eee;
+    border-radius: 3px;
+    transition: all 0.5s ease;  
+}
+.package .approve:hover{
+    background-color: #19A7CE;
+    transition: all 0.5s ease;  
+}
+.pack-data label{
+    font-size: 17px;
+    width: 160px;
+    float: right;
+}
+.pack-row{
+    display: grid;
+    grid-template-columns: repeat(3, .5fr);
+}
+
+/*    */
+
+@media (max-width: 700px){
+    .container .row{
+        display: block;     
+        padding: 0 20px;
+    }
+    .container .user_list{
+        margin-bottom: 20px;
+        display: inline-block;
+        min-width: 88%;
+    }
+    .package{
+        display: inline-block;
+        margin-left: 70px;
+        
+    }
+    .package img{
+        width: 100%;
+    }
+    .package p{
+        width: 300px;
+    }
+    .pack-row{
+        display: block;
+        
+    }
+}
